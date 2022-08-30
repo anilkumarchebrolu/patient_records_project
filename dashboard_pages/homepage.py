@@ -1,7 +1,3 @@
-from operator import add
-from turtle import onclick
-from dashboard_pages.add_new_patient import AddNewPatient
-
 class HomePage:
     def __init__(self, streamlit, authenticator, user_full_name) -> None:
         self.st = streamlit
